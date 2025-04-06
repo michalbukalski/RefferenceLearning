@@ -26,6 +26,5 @@ public class Main {
 
     private static void modifyArray(int[] array, int a, int b){
         array[a]=b;
-
     }
 }
