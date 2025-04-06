@@ -17,9 +17,11 @@ public class Main {
         anotherArray[0] = 1;
         modifyArray(myIntArray,1,2);
         modifyArray(anotherArray,2,3);
+        modifyArray(myIntArray,3,4);
 
         System.out.println("After change myIntArray = " + Arrays.toString(myIntArray));
         System.out.println("After change anotherArray = " + Arrays.toString(anotherArray));
+
     }
 
     private static void modifyArray(int[] array, int a, int b){
