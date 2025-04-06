@@ -15,13 +15,14 @@ public class Main {
         System.out.println("anotherArray = " + Arrays.toString(anotherArray));
 
         anotherArray[0] = 1;
-        modifyArray(myIntArray);
+        modifyArray(myIntArray,1,2);
+        modifyArray(anotherArray,2,3);
 
         System.out.println("After change myIntArray = " + Arrays.toString(myIntArray));
         System.out.println("After change anotherArray = " + Arrays.toString(anotherArray));
     }
 
-    private static void modifyArray(int[] array){
-        array[1]=2;
+    private static void modifyArray(int[] array, int a, int b){
+        array[a]=b;
     }
 }
